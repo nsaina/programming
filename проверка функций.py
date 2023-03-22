@@ -150,6 +150,7 @@ class UserInterface:
             count = int(self.kol_vo())
             for i in range(count):
                 k.append(self.piz3.name)
+        #добавить исключение для количества пицц
         print("Желаете еще добавить что-то?, Для добавления введите 1, Иначе будет переход к этапу оплаты заказа")
         num=input()
         if num=='1':
